@@ -128,3 +128,4 @@ dist
 
 # Zip Files
 *.rar
+/.vs

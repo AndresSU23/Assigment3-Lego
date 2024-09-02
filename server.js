@@ -17,7 +17,8 @@ const legoData = require("./modules/legoSets");
 legoData.initialize();
 
 const express = require('express'); // "require" the Express module
-const path = require('path');
+
+
 const app = express(); // obtain the "app" object
 const HTTP_PORT = process.env.PORT || 8080; // assign a port
 
